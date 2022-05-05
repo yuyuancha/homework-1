@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+header {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    width: 75%;
+    padding-left: 30px;
+}
+
+header a {
+    margin: 10px 20px 0;
+}
+
+header div {
+    margin: 10px 0 0;
+}
+
+.a-home {
+    text-decoration: none;
+    color: blue;
+}
+
+.a-home:hover {
+    color: red;
+}
+
+.a-self {
+    text-decoration: none;
+    cursor: default;
+    color: black;
+}
+
+.btn {
+    margin-top: 20px;
+    line-height: 30px;
+    padding: 0 30px;
+    font-size: 16px;
+    border-color: rgb(91, 114, 246);
+    border-radius: 20px;
+    background-color: rgb(87, 61, 255);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(35, 46, 119);
+}

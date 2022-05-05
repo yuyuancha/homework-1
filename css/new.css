@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+main div {
+    width: 70%;
+}
+
+main hr {
+    width: 70%;
+    margin: 20px 0;
+}

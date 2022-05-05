@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+main div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.left-div {
+    padding: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.left-div p {
+    margin: 10px 0;
+}
+
+div.left-div hr {
+    margin: 20px 0;
+}
+
+div.left-div ul {
+    display: flex;
+    flex-direction: column;
+}
+
+div.left-div ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+ul li label {
+    width: 100px;
+}
+
+div.right-div {
+    padding: 30px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.right-div label {
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    width: 150px;
+}
